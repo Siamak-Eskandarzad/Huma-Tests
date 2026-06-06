@@ -1,0 +1,12 @@
+{
+  "name": "tictactoe-cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress tests for Tic-Tac-Toe app",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
