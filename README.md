@@ -32,6 +32,12 @@ npm run test:open
 
 ---
 
+## Manual Test Report
+
+A full Bug & Security Assessment Report (14 findings, OWASP-aligned) is available here:
+[Bug_Security_Report.pdf](./Manual-Test-Report/Bug_Security_Report.pdf)
+
+
 ## Test files
 
 | File                           | What it tests                             |
