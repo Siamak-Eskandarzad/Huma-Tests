@@ -1,18 +1,22 @@
-# Cypress Tests — Tic-Tac-Toe
+# Huma-Tests — Cypress Test Suite for Tic-Tac-Toe
+
+This repository contains automated E2E tests (Cypress) and a manual Bug & Security Assessment Report for a Tic-Tac-Toe web application, prepared as part of the QA Automation Engineer assessment for Huma.
+
+---
 
 ## Setup
 
 ```bash
 npm install
-
 ```
 
-## How to run
+---
+
+## How to Run
 
 **Step 1 — Serve the app**
 
-You need to serve `index.html` on a local server first.
-The easiest way:
+Serve `index.html` on a local server first:
 
 ```bash
 npx serve /path/to/folder-containing-index.html
@@ -32,19 +36,7 @@ npm run test:open
 
 ---
 
-
-
-
-## Manual Test Report
-
-A full Bug & Security Assessment Report (14 findings, OWASP-aligned) is available here:
-[Bug_Security_Report.pdf](./Manual-Test-Report/Bug_Security_Report.pdf)
-
-
-
-
-
-## Test files
+## Test Files
 
 | File                           | What it tests                             |
 | ------------------------------ | ----------------------------------------- |
@@ -54,9 +46,14 @@ A full Bug & Security Assessment Report (14 findings, OWASP-aligned) is availabl
 
 ---
 
+## Manual Test Report
+
+A full Bug & Security Assessment Report (14 findings, OWASP-aligned) is available here:
+[Bug\_Security\_Report.pdf](./Manual-Test-Report/Bug_Security_Report.pdf)
+
+---
+
 ## Notes
 
-- Tests marked `[BUG-XX]` are **expected to fail** right now because the bug still exists.
-  That is normal — they are there to document the bug and catch it when it gets fixed.
-- The `baseUrl` in `cypress.config.js` is set to `http://localhost:3000`.
-  Change it if your server runs on a different port.
+- Tests marked `[BUG-XX]` are **expected to fail** — they document known bugs and will catch them once fixed.
+- The `baseUrl` in `cypress.config.js` is set to `http://localhost:3000`. Change it if your server runs on a different port.
