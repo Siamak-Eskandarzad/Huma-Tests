@@ -149,10 +149,12 @@ http://localhost:3000
 
 ## 🎯 Purpose of This Project
 
-This repository demonstrates:
+This repository demonstrates practical QA engineering work on a real web application, including:
 
-- Strong **QA Automation skills (Cypress)**
-- Ability to perform **security-focused testing**
-- Real-world **bug discovery & reporting**
-- Understanding of **OWASP Top 10 risks**
-- Structured QA documentation (Test Plan + Bug Report)
+- Cypress-based end-to-end test automation for core user flows
+- Manual exploratory testing across authentication, game logic, and session handling
+- Identification and documentation of functional and security-related defects
+- Application of OWASP Top 10 concepts in real testing scenarios (e.g. authentication, session management, and insecure storage)
+- Structured QA documentation including a Test Plan and a detailed Bug & Security Report
+
+The focus of this project is on practical testing quality, defect discovery, and real-world QA reasoning rather than theoretical coverage.
